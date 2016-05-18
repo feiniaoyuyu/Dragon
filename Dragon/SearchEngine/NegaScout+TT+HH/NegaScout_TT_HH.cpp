@@ -145,3 +145,10 @@ int CNegaScout_TT_HH::NegaScout(int depth, int alpha, int beta,int m_UpDown)
 		EnterHashTable(upper_bound, a, depth,side);
 	return a;
 }
+
+
+
+
+//初始化8根线程
+//将第一层次的任务均分给8跟线程
+//

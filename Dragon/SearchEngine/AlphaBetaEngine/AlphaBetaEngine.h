@@ -3,7 +3,6 @@
 #define __INCLUDE_ALPHABETAENGINE_H__
 
 #include "SearchEngine.h"
-
 class CAlphaBetaEngine : public CSearchEngine  
 {
 public:
@@ -12,6 +11,7 @@ public:
 	virtual void SearchAGoodMove(int position[10][10],int m_UpDown);
 protected:
 	int alphabeta(int depth, int alpha, int beta,int m_UpDown);
+
 };
 
 #endif //__INCLUDE_ALPHABETAENGINE_H__
